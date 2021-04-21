@@ -1,6 +1,18 @@
-<html>
-<body style="background-color:black;">
-<embed src="http://www.kirmizitop.com/swf/1.swf" width="1000" height="800">
-<object type="application/x-shockwave-flash" id="" data="http://cdn.fastswf.com/files/wBD3NI4/wBD3NI4.swf?AWSAccessKeyId=AKIAIWTOYM4XXIVL5IGQ&amp;Expires=1619040882&amp;Signature=KY4sjivdipRXBDDd9nfrcx4f4ks%3D" width="320" height="240"><param name="menu" value="false"><param name="scale" value="noScale"><param name="allowFullscreen" value="true"><param name="allowScriptAccess" value="never"><param name="bgcolor" value=""><param name="wmode" value="direct"></object>
-</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>SWFObject dynamic embed - step 3</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script type="text/javascript" src="swfobject.js"></script>
+
+    <script type="text/javascript">
+        swfobject.embedSWF("http://www.kirmizitop.com/swf/1.swf", "myContent", "300", "120", "9.0.0");
+    </script>
+
+  </head>
+  <body>
+    <div id="myContent">
+      <p>Alternative content</p>
+    </div>
+  </body>
 </html>
